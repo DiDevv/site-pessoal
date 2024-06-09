@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+.Header{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  font-family: "Nanum Myeongjo";
+  border-bottom: 1.5px solid black;
+}
+
+.Title{ 
+  padding-right: 15%;
+  cursor: pointer;
+}
+
+.List{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+li{
+  padding: 1rem;
+  cursor: pointer;
+ 
+}
+
+li:hover {
+    border-bottom: 1px solid black; 
+}
+
+a:visited{
+    color: black;
+}
+
